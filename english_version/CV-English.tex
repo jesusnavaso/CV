@@ -1,0 +1,133 @@
+\documentclass[10pt,a4paper]{altacv}
+%\usepackage{smartdiagram}
+%\usepackage{xcolor}
+%\smartdiagramset{
+%	% default font size is \large, so adjust to harmonize with sidebar layout
+%	bubble center node font = \footnotesize,
+%	bubble node font = \footnotesize,
+%	% default: 4cm/2.5cm; make minimum diameter relative to sidebar size
+%	bubble center node size = 0.4\sidebartextwidth,
+%	bubble node size = 0.25\sidebartextwidth,
+%	distance center/other bubbles = 1.5em,
+%	% set center bubble color
+%	bubble center node color = maincolor!70,
+%	% define the list of colors usable in the diagram
+%	set color list = {materiallime, materialamber,
+%		materialcyan, materialblue, materialindigo},
+%	% sets the opacity at which the bubbles are shown
+%	bubble fill opacity = 0.8,
+%}
+
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{scrextend}
+
+\definecolor{arsenic}{rgb}{0.23, 0.27, 0.29}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{arsenic}
+\colorlet{accent}{arsenic}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Jesús Navas Orozco}
+\tagline{}
+\photo{3.5cm}{my_photo.png}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \underline{\textbf{CONTACT INFORMATION}\hspace{13cm}} \\
+  \phone{+34 616549122}
+  \email{jesusnavaso@gmail.com}
+  \location{Seville, Spain.}
+  \linkedin{\href{https://www.linkedin.com/in/jes\%C3\%BAs-navas-orozco/}{linkedin.com/in/jesús-navas-orozco/}}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\cvsection[page1sidebar]{About me}
+I have a strong mathematical education thanks to both the Master Degree and the Bachelor Degree in Mathematics from the University of Seville, and an innate love for programming.
+
+I intend to never stop learning while growing as a professional. 
+ 
+\cvsection{Working experience}
+\begin{minipage}[t]{0.3\linewidth}
+	\centering
+  \includegraphics[width=15mm]{soleraInc.jpg}
+\end{minipage}
+\begin{minipage}[b]{0.69\linewidth}
+  \cvevent{\underline{Graduate Software developer}}{Solera, Inc}{November 2020 - now}{Seville}
+\end{minipage}
+
+\begin{addmargin}{2em}
+\begin{small}
+\textbf{Main tasks:}
+\begin{itemize}
+  \item Maintining a Python 2.7 project that created basic data analysis reports on schedule in a remote linux server.
+  \item Maintining such linux server.
+  \item Working in a big java project, with a react Frontend.
+\end{itemize}
+\end{small}
+\end{addmargin}
+
+\cvsection{Studies}
+\cvevent{\underline{Master in advanced Mathematics}}{University of Seville}{Academic course 2019-2020}{Seville}
+Average grade: 9.45/10.
+
+With honors in \textit{Cryptography}, \textit{Graph Theory and Computational Geometry.}
+
+\textbf{Master Thesis}
+
+Title: \textit{The Néron-Ogg-Shafarevich Criterion for Elliptic Curves.}
+
+Score: 10/10
+
+\cvevent{\underline{Bachelor Degree in Mathematics}}{University of Seville}{2014-2019}{Seville}
+Average grade: 7.92/10.
+
+\textbf{Bachelor Thesis}:
+
+Title: \textit{Elliptic curves and Mordell's Theorem.}\quad Score: 9.5/10 
+
+% Advisor: Dr. Luis Narváez Macarro.
+
+\cvevent{\underline{High School Degree}}{I.E.S. Castillo de Cote}{2012-2014}{Montellano (Seville)}
+Average grade of the academic record: 10.00 /10.00.
+
+
+\cvsection{Awards} 
+
+\cvachievement{\faTrophy}{Honor award to the best academic record of High School.}{2012-2014 - High School: I.E.S. Castillo de Cote}
+
+\cvachievement{\faTrophy}{Award to the best expedient of Middle School (ESO).}{2008-2012 - High School I.E.S. El Coronil}
+
+\cvachievement{\faTrophy}{Winner of the $3^{rd}$ Accesit of the Micro-stories Contest of \textit{El Brocense} Cultural Institution (Cáceres).}{2011}
+
+\clearpage
+
+
+
+%% If the NEXT page doesn't start with a \cvsection but you'd
+%% still like to add a sidebar, then use this command on THIS
+%% page to add it. The optional argument lets you pull up the 
+%% sidebar a bit so that it looks aligned with the top of the
+%% main column.
+% \addnextpagesidebar[-1ex]{page3sidebar}
+
+
+\end{document}

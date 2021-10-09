@@ -1,0 +1,146 @@
+\documentclass[10pt,a4paper]{altacv}
+%\usepackage{smartdiagram}
+%\usepackage{xcolor}
+%\smartdiagramset{
+%	% default font size is \large, so adjust to harmonize with sidebar layout
+%	bubble center node font = \footnotesize,
+%	bubble node font = \footnotesize,
+%	% default: 4cm/2.5cm; make minimum diameter relative to sidebar size
+%	bubble center node size = 0.4\sidebartextwidth,
+%	bubble node size = 0.25\sidebartextwidth,
+%	distance center/other bubbles = 1.5em,
+%	% set center bubble color
+%	bubble center node color = maincolor!70,
+%	% define the list of colors usable in the diagram
+%	set color list = {materiallime, materialamber,
+%		materialcyan, materialblue, materialindigo},
+%	% sets the opacity at which the bubbles are shown
+%	bubble fill opacity = 0.8,
+%}
+
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{graphicx}
+
+\definecolor{arsenic}{rgb}{0.23, 0.27, 0.29}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{arsenic}
+\colorlet{accent}{arsenic}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Jesús Navas Orozco}
+\tagline{}
+\photo{3.5cm}{F1}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \underline{\textbf{CONTACTO}\hspace{13cm}} \\
+  \phone{+34 616549122}
+  \email{jesusnavaso@gmail.com}
+  \location{Sevilla, España.}
+  \linkedin{linkedin.com/in/jesús-navas-orozco}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%\cvsection[page1sidebar]{Experiencia}
+%
+%\cvevent{Auxiliar Compensación y Beneficios}{Acción Plus (En misión para Alpina)}{Dic 2017 – Actual}{Bogotá}
+%\begin{itemize}
+%\item Apoyo en la construcción de modelos de Compensación Variable para la Vicepresidencia de Operaciones
+%\item Elaboración de Provisión Sindical
+%\item Construcción de la presentación del indicador de gasto laboral
+%\item Construcción de una herramienta para la reclasificación de gasto
+%\item Apoyo en la construcción, revisión y ajuste de flujos de aprobación en Oracle
+%\item Diseño de una herramienta para la valoración de puestos de trabajo (VBA Excel)
+%\item Diseño de una herramienta para el análisis de la compensación (Pyhon 3x)
+%\item Diseño de una herramienta para la liquidación de horas Extra (VBA Excel)
+%\item Diseño de una herramienta para la revisión, elaboración y envío de reporte HeadCount
+%\end{itemize}
+%
+%\divider
+%
+%\cvevent{Profesional de Apoyo}{Universidad Nacional de Colombia}{Junio 2016 - Septiembre 2016}{Bogotá}
+%\begin{itemize}
+%\item Elaboración de informes y diagnósticos de proyectos de investigación de la Facultad de Ingeniería
+%\item Diligenciamiento de proyectos en sistemas de información
+%\item Gestión del cierre financiero de proyectos en sistemas de información
+%\end{itemize}
+
+
+\cvsection[page1sidebar]{Sobre mí}
+Tengo una fuerte formación matemática a mis espaldas con el Máster Universitario y el Grado en Matemáticas de la Universidad de Sevilla, y tengo interés en aplicar estos conocimientos y técnicas en ámbitos más prácticos del mundo cotidiano. 
+
+Mi intención actual es introducirme al mundo laboral-empresarial y crecer como profesional mientras aprendo todo lo posible de programación. Me interesan mucho lenguajes como \emph{Python} y \emph{Java} y me gustaría introducirme a los campos \emph{Data Science} y \emph{Machine Learning}.
+ 
+
+\cvsection{Estudios}
+\cvevent{\underline{Máster Universitario en Matemáticas}}{Univeridad de Sevilla}{Curso 2019-2020}{Sevilla}
+Nota media: 9.45 /10.
+
+Matrícula de Honor en \textit{Criptografía} y \textit{Teoría de Grafos y Geometría Computacional}
+
+\textbf{Trabajo de Fin de Máster}:
+
+Título: \textit{The Néron-Ogg-Shafarevich Criterion for Elliptic Curves}
+
+Calificación: 10/10.\quad
+Directores: Dr. Sara Arias-de-Reyna Domínguez. \\
+		\hspace{51mm}	Dr. José María Tornero Sánchez.
+			
+
+\cvevent{\underline{Grado en Matemáticas}}{Univeridad de Sevilla}{2014-2019}{Sevilla}
+\textbf{Trabajo de Fin de grado}:
+
+Título: \textit{Curvas Elípticas y el Teorema de Mordell.}\quad Calificación: 9.5/10 
+
+Director: Dr. Luis Narváez Macarro.
+
+\cvevent{\underline{Título de Bachiller}}{I.E.S. Castillo de Cote}{2012-2014}{Montellano (Sevilla)}
+Nota media expediente: 10.00 /10.00.
+
+%\cvsection{Cursos Complementarios}
+%
+%\cvevent{Uso de Excel y Access para el desarrollo de aplicaciones administrativas}{Sena - Complementaria Virtual}{Junio 2017}{SenaSofiaPlus.edu.co}
+%\divider
+%\cvevent{Fundamentos de SAP}{CORE Consultores}{Febrero 2017}{Bogotá}
+%\divider
+%\cvevent{R Programming}{Johns Hopkins University MOOC}{Mayo 2014}{Coursera.org}
+
+
+\cvsection{LOGROS} %originalmente: reconocimientos
+
+\cvachievement{\faTrophy}{Matrícula de Honor al Mejor Expediente de Bachillerato.}{Promoción 2012-2014 - Instituto I.E.S. Castillo de Cote}
+
+\cvachievement{\faTrophy}{Premio al Mejor Expediente de Eduación Secundaria Obligatoria (ESO).}{Promoción 2008-2012 - Instituto I.E.S. El Coronil}
+
+\cvachievement{\faTrophy}{Ganador del 3º Accesit del Concurso de Microrrelatos de la Institución Cultural el Brocense (Cáceres).}{2011}
+
+\clearpage
+
+
+
+%% If the NEXT page doesn't start with a \cvsection but you'd
+%% still like to add a sidebar, then use this command on THIS
+%% page to add it. The optional argument lets you pull up the 
+%% sidebar a bit so that it looks aligned with the top of the
+%% main column.
+% \addnextpagesidebar[-1ex]{page3sidebar}
+
+
+\end{document}
