@@ -1,0 +1,1 @@
+This Curriculum uses the [AltaCV Latex Class](https://github.com/liantze/AltaCV), by LianTze Lim. You can find the template [in overleaf](https://www.overleaf.com/latex/templates/altacv-template/trgqjpwnmtgv)
